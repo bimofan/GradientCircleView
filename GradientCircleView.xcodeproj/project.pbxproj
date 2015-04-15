@@ -14,6 +14,7 @@
 		1333BB451ADE53A2009B2B32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1333BB441ADE53A2009B2B32 /* Images.xcassets */; };
 		1333BB481ADE53A2009B2B32 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1333BB461ADE53A2009B2B32 /* LaunchScreen.xib */; };
 		1333BB541ADE53A2009B2B32 /* GradientCircleViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1333BB531ADE53A2009B2B32 /* GradientCircleViewTests.m */; };
+		1333BB5F1ADE53D7009B2B32 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1333BB5E1ADE53D7009B2B32 /* CircleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		1333BB4D1ADE53A2009B2B32 /* GradientCircleViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradientCircleViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1333BB521ADE53A2009B2B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1333BB531ADE53A2009B2B32 /* GradientCircleViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientCircleViewTests.m; sourceTree = "<group>"; };
+		1333BB5D1ADE53D7009B2B32 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		1333BB5E1ADE53D7009B2B32 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				1333BB441ADE53A2009B2B32 /* Images.xcassets */,
 				1333BB461ADE53A2009B2B32 /* LaunchScreen.xib */,
 				1333BB371ADE53A2009B2B32 /* Supporting Files */,
+				1333BB5D1ADE53D7009B2B32 /* CircleView.h */,
+				1333BB5E1ADE53D7009B2B32 /* CircleView.m */,
 			);
 			path = GradientCircleView;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1333BB5F1ADE53D7009B2B32 /* CircleView.m in Sources */,
 				1333BB401ADE53A2009B2B32 /* ViewController.m in Sources */,
 				1333BB3D1ADE53A2009B2B32 /* AppDelegate.m in Sources */,
 				1333BB3A1ADE53A2009B2B32 /* main.m in Sources */,
